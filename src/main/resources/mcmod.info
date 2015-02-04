@@ -1,0 +1,16 @@
+[
+{
+  "modid": "alignment",
+  "name": "Alignment",
+  "description": "Add Description",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["SR2610"],
+  "credits": "Add Credits",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
