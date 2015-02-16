@@ -1,7 +1,10 @@
 package com.sr2610.alignment;
 
+import net.minecraftforge.common.MinecraftForge;
+
 import com.sr2610.alignment.common.configuration.ConfigurationHandler;
 import com.sr2610.alignment.common.lib.LibNames;
+import com.sr2610.alignment.common.tracking.TrackingEventHandler;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
@@ -28,6 +31,8 @@ public class Alignment {
 	    public void init(FMLInitializationEvent event){
 	 
 	        FMLCommonHandler.instance().bus().register(instance);
+	        MinecraftForge.EVENT_BUS.register(new TrackingEventHandler());
+
 	    }
 	 
 	    @Mod.EventHandler

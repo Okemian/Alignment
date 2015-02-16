@@ -26,7 +26,6 @@ public class AlignmentGuiConfig extends GuiConfig {
 	private static List<IConfigElement> getConfigElements(GuiScreen parent) {
 		List<IConfigElement> list = new ArrayList<IConfigElement>();
 
-		// adds sections declared in ConfigHandler. toLowerCase() is used because the configuration class automatically does this, so must we.
 		list.add(new ConfigElement<ConfigCategory>(config.getCategory(general.toLowerCase())));
 		list.add(new ConfigElement<ConfigCategory>(config.getCategory(tracking.toLowerCase())));
 
