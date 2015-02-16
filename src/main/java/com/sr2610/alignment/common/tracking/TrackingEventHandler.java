@@ -13,4 +13,6 @@ public class TrackingEventHandler {
 			AlignmentExtendedPlayer.registerPlayer((EntityPlayer) event.entity);
 
 	}
+
+
 }

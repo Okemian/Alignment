@@ -49,4 +49,12 @@ public class AlignmentExtendedPlayer implements IExtendedEntityProperties {
 		// Nothing to go here
 	}
 
+	public void addMorality(int value) {
+		currentMorality = currentMorality + value;
+	}
+
+	public int getMorality(){
+		return this.currentMorality;
+	}
+
 }
