@@ -5,6 +5,8 @@ public final class LibNames {
 	public static final String modID = "alignment";
 	public static final String modVersion = "1.0";
 	public static final String modGuiFactory = "com.sr2610.alignment.client.gui.AlignmentGuiFactory";
+	public static final String proxyClient = "com.sr2610.alignment.client.ClientProxy";
+	public static final String proxyServer = "com.sr2610.alignment.common.CommonProxy";
 	public static final String alignmentTacker = "ExtendedPlayerAlignment";
 
 }
